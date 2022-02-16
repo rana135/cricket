@@ -1,0 +1,23 @@
+.half-width:hover .move-bat{
+      transform: rotate(-65deg)
+      
+}    
+.half-width{
+    border:1px solid red;
+    
+
+}
+.ball{
+    width:25px;
+    height:25px;
+    background-color: red;
+    border-radius:25px;
+    transform: translate(157px,-52px);
+    transition: transform 0.5s ease-out;
+}
+.half-width:hover .ball{
+    transform:translate(950px,-150px)
+}
+.bat{
+    transition: transform 0.2s ease-in;
+}
